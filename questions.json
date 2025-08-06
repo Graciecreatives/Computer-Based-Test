@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "question": "What does the DOCTYPE Declaration do in an HTML?",
+        "options": [
+            "Specifies the CSS file linked to the HTML Document.",
+            "Defined the character encoding of the document.",
+            "Informs the web browser about the version of HTML being used.",
+            "Initiates the JavaScript engine in the browser."
+        ],
+       "correctAnswer": 2,
+       "selectedAnswer ": null
+
+    },
+
+    {
+        "id": 2,
+        "question": "What is the main difference between inline and block-level elements in HTML?",
+        "options": [
+            "Block-level elements are used for styling while inline elements are used for structuring content.",
+            "Inline elements are primarily used for content that is part of a paragraph, such as links, while block-level elements structure the main parts of a page, like sections and articles.",
+            "Inline elements are removed from the normal flow of the document, whereas block-level elements remain within the flow",
+            "Block-level elements start on a new line and take up the full width available, whereas inline elements do not start on a new line and only take up as much width as necessary."
+        ],
+       "correctAnswer": 3,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 3,
+        "question": "What is the main purpose of the <head> section in an HTML document?",
+        "options": [
+            "To define the footer of the web page.",
+            "To display visible content to the user.",
+            "To contain metadata and instructions for the browser.",
+            "To include the main navigation links."
+        ],
+       "correctAnswer": 2,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 4,
+        "question": "How do you comment out a section of code in HTML?",
+        "options": [
+            "By enclosing the section with <!- and ->.",
+            "By enclosing the section with <!-- and -->.",
+            "By wrapping the section with /* and */.",
+            "By using // at the beginning of each line."
+        ],
+       "correctAnswer": 1,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 5,
+        "question": "What role does CSS play in web development",
+        "options": [
+            "Connects the web page to the server.",
+            "Adds interactivity to the web page.",
+            "Defines the presentation of HTML document",
+            "Provides the basic structure and content."
+        ],
+       "correctAnswer": 2,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 6,
+        "question": "Which tag is necessary to include JavaScript code in an HTML Document?",
+        "options": [
+            "<js>",
+            "<script>",
+            "<code>",
+            "<javascript>"
+        ],
+       "correctAnswer": 1,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 7,
+        "question": "How is the Document Object Model (DOM) utilized in web Developement?",
+        "options": [
+            "It allows developers to dynamically manipulate the content and structure of web pages.",
+            "It encrypts data sent between the client and server.",
+            "It stores the server-side scripts used in the webpage.",
+            "It defines the color and style of the webpage elements."
+        ],
+       "correctAnswer": 0,
+       "selectedAnswer ": null
+
+    },
+
+    {
+        "id": 8,
+        "question": "Which HTML element is used to link a webpage to an external CSS file named 'style.css'?",
+        "options": [
+            "<link rel='stylesheet' href='styles.css'>",
+            "<css src='styles.css'>",
+            "<stylesheet file='styles.css'>",
+            "<style src='styles.css'>"
+        ],
+       "correctAnswer": 0,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 9,
+        "question": "Example the following HTML snippet: <html lang='en'> what is the purpose of the lang attribute in the <html> tag?",
+        "options": [
+            "Specifies the character encoding of the document.",
+            "Automatically translate the document content to the specified language.",
+            "Specifies the default language of the web page and changes the text direction of the document to support languages written from left to right.",
+            "Defines the language of the document's content for search engines and screen readers."
+        ],
+       "correctAnswer": 3,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 10,
+        "question": "What is the function of the <meta charset = 'UTF-8'> tag in an HTML document?",
+        "options": [
+            "It sets the entire document's font to the UTF-8 style, overriding any CSS styling.",
+            "It encrypts the HTML document using UTF-8 encryption for security purposes.",
+            "It defines the character encoding for the HTML document, ensuring that all character are displayed correctly across different browsers and platforms.",
+            "It specifies that the HTML document can only be opened using browsers that support UTF-8 encoding."
+        ],
+       "correctAnswer": 2,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 11,
+        "question": "What is the role of the <html> tag in an HTML document",
+        "options": [
+            "It defines the metadata of the document, including the character encoding and viewport settings.",
+            "It declares the document type and version of HTML being used.",
+            "It indicates the beginning and end of an HTML document, encompassing all content within the document.",
+            "It is used to link external CSS files to style the HTML document."
+        ],
+       "correctAnswer": 3,
+       "selectedAnswer ": null
+
+    },
+
+    {
+        "id": 12,
+        "question": "What distinguishs global attributes from element-specific attributes in HTML?",
+        "options": [
+            "Global attributes specify external resources required by the HTML document, such as CSS files and JavaScript scripts, whereas element-specific attributes are used to define inline styling and scripts.",
+            "Global attributes can be applied to any HTML element for various purposes, such as styling and unique identification, while element-specific attributes are tailored to modify the behaviour of specific element.",
+            "Global attributes define the dcoument's structure, such as <header>, <footer>, and <article>, while element-specific attributes modify the document's metadata like charset and viewport.",
+            "Global attributes are used extensively within the <head> section of an HTML document to specify metadata, while element-specific attributes are used within the <body> section to define content properties."
+        ],
+       "correctAnswer": 1,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 13,
+        "question": "Do all HTML elements require a closing tag?",
+        "options": [
+            "Yes, eevery HTML element must have a corresponsing closing tag to ensure proper rendering by the web browser.",
+            "Only HTML elements that contain other elements or content require a closing tag, while standalone elements do not.",
+            "Closing tags are optional for all HTML elements as modern web browsers can automatically infer the end of elements.",
+            "No, not all HTML elements require a closing tag. Some elements, known as self-closing or void elements, do not need a closing tag, such as <img>, <br>, and <input>."
+        ],
+       "correctAnswer": 3,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 14,
+        "question": "What best describes the difference between an HTML tag and an HTML element?",
+        "options": [
+            "HTML elements are a new feature in HTML5, replacing the older system of HTML tags for better compatibility and efficiency.",
+            "HTML tags are only used in the head section of a document, while HTML elements make up the body section.",
+            "An HTML tag is used to add content to a webpage, whereas an HTML element is used exclusively for styling purposes.",
+            "An HTML element refers to the complete structure, including the opening tag, content, and closing tag, while a tag specifically denotes the opening and closing markers"
+        ],
+       "correctAnswer": 3,
+       "selectedAnswer ": null
+    },
+
+    {
+        "id": 15,
+        "question": "Consider the binary number 10110 and the hexadecimal number B. Which statement accurately describes their decimal equivalents?",
+        "options": [
+            "The binary number 10110 equals 22 in decimal, and the hexadecimal number B equals 11 in decimal.",
+            "The binary number 10110 represents the decimal number 5, while the hexadecimal numner B stands for the decimal number 12.",
+            "The binary number 10110 equals 11 in decimal, and the hexadecimal number B equals 22 in decimal.",
+            "Both the binary number 10110 and the hexadecimal number B represent the decimal number 11."
+
+        ],
+       "correctAnswer": 0,
+       "selectedAnswer ": null
+    }
+ 
+]
