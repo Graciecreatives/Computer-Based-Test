@@ -153,3 +153,7 @@ window.onload = loadQuestions;
 
 
 
+function loadQuiz() {
+  document.getElementById('firstpage').style.display = "none";
+  document.getElementById('quiz-container').style.display = 'block'
+}
